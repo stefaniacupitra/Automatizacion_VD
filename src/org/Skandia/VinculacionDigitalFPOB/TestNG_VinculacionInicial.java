@@ -13,7 +13,7 @@ import org.testng.annotations.*;
 public class TestNG_VinculacionInicial {
 
     WebDriver driver;
-
+    // esta es una linea de comentario
     @BeforeSuite
     public void beforeSuite(){
         System.out.println("Este metodo de ejecuta antes de una suite de pruebas");
